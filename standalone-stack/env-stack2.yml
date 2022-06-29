@@ -4,6 +4,6 @@ services:
     image: nginx:latest
     container_name: env-test-container2
     ports:
-      - "${PORT:-82}:83"
+      - "${PORT2:-82}:83"
     environment:
       PRT: ${PORT2}
