@@ -6,4 +6,4 @@ services:
     ports:
       - "${PORT:-81}:80"
     environment:
-      PRT: ${PORT}
+      PRT: ${PORT2}
