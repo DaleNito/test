@@ -1,9 +1,9 @@
 version: '3'
 services:
   swarm-deploy:
-    image: alpine
+    image: nginx
     container_name: nginx-container
     environment:
      - test=test
     deploy:
-     replicas: 1
+     replicas: 3
