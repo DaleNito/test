@@ -1,6 +1,6 @@
 version: '3'
 services:
-  service1:
+  wordpress:
     image: wordpress
     ports:
       - 8080:80
@@ -10,7 +10,7 @@ services:
     links:
       - wordpress_db:wp_db
 
-  service2:
+  wordpress_db:
     image: mariadb
     environment:
       - MYSQL_ROOT_PASSWORD=example
