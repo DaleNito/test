@@ -1,7 +1,7 @@
 version: '3'
 services:
   wordpress:
-    image: wordpress
+    image: rasa/rasa:1.10.8-full
     ports:
       - 8080:80
     environment:
