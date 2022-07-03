@@ -1,7 +1,7 @@
 version: '3'
 services:
   test:
-    image: nginx:1.22.0
+    image: nginx
     container_name: nginx-container
     environment:
      - test=test
