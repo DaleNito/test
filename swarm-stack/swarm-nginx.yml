@@ -1,6 +1,6 @@
 version: '3'
 services:
-  nginx-test:
+  nginx:
     image: nginx:1.22.0
     container_name: nginx-container
     environment:
